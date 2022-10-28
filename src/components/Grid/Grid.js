@@ -4,11 +4,11 @@ import MobileMenu from "../MobileMenu/MobileMenu";
 export default function Grid() {
   return (
     <div className="grid grid-rows-3 grid-flow-col gap-4  container ">
-      <div className="row-span-3 bg-red-700 rounded-md max-w-xs">
+      <div className="row-span-3 shadow-2xl rounded-md max-w-max">
         <MobileMenu/>
       </div>
-      <div className="col-span-2 w-full h-50 bg-yellow-500 rounded-md ">02</div>
-      <div className="row-span-2 col-span-2 w-full h-60 bg-purple-700 rounded-md">03</div>
+      <div className="col-span-2 h-50 bg-yellow-500 rounded-md ">02</div>
+      <div className="row-span-2 col-span-2 h-60 bg-purple-700 rounded-md">03</div>
     </div>
   );
 }

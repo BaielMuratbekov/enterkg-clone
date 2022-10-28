@@ -4,7 +4,7 @@ import NavItem from "../NavItem/NavItem";
 
 export default function NavSecond() {
   return (
-    <div className="shadow-xl mb-5">
+    <div className="shadow-md mb-5">
       <div className="flex justify-between items-center  h-16 container">
         <div className="logo">
           <h1 className="text-orange-500 text-4xl font-black">
