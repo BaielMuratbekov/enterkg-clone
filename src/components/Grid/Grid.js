@@ -8,7 +8,7 @@ export default function Grid() {
       </div>
       <div>
         <header className=" shadow-2xl rounded-md w-full">
-        <marquee>Тут вставляем текст бегущей строки</marquee>
+        <h1>Тут вставляем текст бегущей строки</h1>
         </header>
         <div className='mt-10 shadow-2xl rounded-md'>
           <div className="bg-orange-400 w-40 h-60"> </div>
